@@ -2,24 +2,31 @@
 <html>
 	<head>
 		<style>
-			body  {
-		  		background-image: url("https://thehill.com/sites/default/files/ca_robotsoceanhealth_042121istock.jpg");
+			body, html  {
+		  		height:  100%;
+		  		margin: 0;
+		  		padding: 0;
 			}
 			h1 {
 				text-align: center;
 				font-family: 'Helvetica Neue';
 				color:  white;
+				font-size: 70px;
+				line-height: 10px;
 			}
 			p {
 				text-align: center;
 				font-family: 'Helvetica Neue';
 				color:  white;
+				font-size: 20px;
 			}
 			.container {
-				height: 500px;
-			  	position: relative;
+				background-image: url("darkocean.png");
+				height:  100%;
+				background-position: center;
+				background-repeat: no-repeat;
+  				background-size: cover;
 			}
-
 			.vertical-center {
 				margin: 0;
 				position: absolute;
@@ -28,17 +35,23 @@
 				-ms-transform: translate(-50%, -50%);
  				transform: translate(-50%, -50%);
 			}
+			.email{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				padding-right: 10px;
+				font-size:  15px;
+			}
 		</style>
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="vertical-center">
-				<h1>Hgen</h1>
-				<p>Enabling affordable green hydrogen for deep decarbonization</p>		
+			<div class="container">
+				<div class="vertical-center">
+					<h1>Hgen</h1>
+					<p>Enabling affordable green hydrogen for deep decarbonization</p>	
+				</div>
+				<p class="email">sayhello@hgenenergy.com</p>
 			</div>
-		</div>
-	
-		<p>sayhello@hgenenergy.com</p>
 	</body>
 </html>
