@@ -2,57 +2,45 @@
 <html>
 	<head>
 		<style>
+			@font-face {
+			  font-family: DMMonoMedium;
+			  src: url(dmmono-medium.ttf);
+			}
+			@font-face {
+			  font-family: DMMonoRegular;
+			  src: url(dmmono-regular.ttf);
+			}
 			body, html  {
-		  		height:  100%;
-		  		margin: 0;
-		  		padding: 0;
+		  		margin: 30px;
+		  		background-color: black;
 			}
 			h1 {
-				text-align: center;
+				text-align: left;
 				font-family: 'Helvetica Neue';
 				color:  white;
-				font-size: 7vmax;
-				line-height: 10px;
+				font-size: 4vmax;
+			}
+			h2 {
+				text-align: left;
+				font-family: DMMonoMedium;
+				color:  white;
+				font-size: 2vmax
 			}
 			p {
-				text-align: center;
-				font-family: 'Helvetica Neue';
+				font-family: DMMonoRegular;
 				color:  white;
-				font-size: 1.8vmax;
+				font-size: 2vmax;
 			}
-			.container {
-				background-image: url("oceanStock.jpg");
-				height:  100%;
-				background-position: center;
-				background-repeat: no-repeat;
-  				background-size: cover;
-			}
-			.vertical-center {
-				margin: 0;
-				position: absolute;
-				top: 50%;
-				left:  50%;
-				-ms-transform: translate(-50%, -50%);
- 				transform: translate(-50%, -50%);
-			}
-			.email{
-				position: absolute;
-				bottom: 0;
-				right: 0;
-				padding-right: 10px;
-				font-size: 1.5vmax;
+			a{
+				color:  white;
 			}
 		</style>
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="vertical-center">
-				<h1>Hgen</h1>
-				<p>Enabling affordable green hydrogen for deep decarbonization</p>	
-			</div>
-
-			<p class="email">sayhello@hgenenergy.com</p>
-		</div>
+		<img class="icon" src="HGEN-icon.png" style="height:350px;">
+		<h1>We're <a href="https://jobs.lever.co/hgen">hiring</a>.</h1>
+		<h2>Affordable green hydrogen for deep decarbonization.</h2>
+		<p>sayhello@hgen.com</p>
 	</body>
 </html>
